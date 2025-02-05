@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+             margin: 0;
+            padding: 0; 
+            width: 100%;
+           
+            flex-wrap:left;
+
+        }
+    body{
+      
+        max-width: 100%;
+        display: flex;
+        flex-direction: left;
+        flex-wrap: wrap-reverse;
+
+        }
+        .container{
+            background-color:rgba(19, 129, 19, 0.767);
+           
+            height:90px;
+            
+            border-color: green;
+
+
+        }
+        h1{
+            display:flex;
+            color: aliceblue;
+            padding: 20px;
+
+            justify-content: center;
+            font-size:24px;
+            font-weight: bold;
+
+           
+        }
+        .elment{
+             display: flex; 
+             justify-content: center; 
+             gap:20px;
+            color: aliceblue;
+            padding-bottom: 10px;
+            margin-left: 35px;
+           
+            
+
+
+    
+
+        }
+        .elment a{
+            text-decoration:none;
+            color:white;
+            font-size:18px;
+        }
+        main{
+            position:relative;
+            margin-top: 30px;
+        
+            grid-template-columns: auto auto;
+           height: 570%;
+           
+           display:grid;
+           display: flex;
+           justify-content: space-between;
+
+        }
+        .box1{
+            display: inline;
+            
+            height: 400px;
+        
+            margin-right: 20px;
+        }
+        .box2{
+            border: 2px ;
+            padding-left:500px;
+        }
+        .div1{
+
+            position:relative;
+            margin: 50px;
+            background-color: white;
+            height: 150px;
+            width: 500px;
+            border: 2px ;
+            border-radius: 2px;
+            box-shadow: 3px 3px 3px 3px  grey;
+            padding: 7px;
+        }
+        .div1 h3{
+            color: green;
+            margin-bottom: 30px;
+        }
+        .div1 p{
+            font-size: 18px;
+        }
+        .div2{
+            position:relative;
+            margin: 50px;
+            background-color: white;
+            height: 150px;
+            width: 500px;
+            border: 2px ;
+            border-radius: 2px;
+            box-shadow: 3px 3px 3px 3px  grey;
+            padding: 7px;
+        }
+        .div2 h3{
+            color: green;
+        }
+        .div2 p{
+            font-size: 18px;
+        }
+
+        .div3{
+            position:relative;
+            margin: 50px;
+            background-color: white;
+            height: 150px;
+            width: 500px;
+            border: 2px;
+            border-radius: 2px;
+            box-shadow: 3px 3px 3px 3px  grey;
+            padding: 7px;
+        }
+        .div3 h3{
+            color: green;
+        }
+        .div3 p{
+            font-size: 18px;
+        }
+        footer{
+            background-color:black;
+            display: flex;
+            height: 40px;
+            color: white;
+            justify-content: center;
+            padding-left:45% ;
+            margin-top: 10px;
+            font-size: 30px;
+            
+           
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <h1>Welcome to Your Website Task</h1>
+                <div class="elment">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="box1">
+                <div class="div1">
+                    <h3>About CSS</h3>
+                    <br>
+                    <p>cascading style sheets(css) allow you to style and layout your web<br> pages,adding colors,spacing and more.</p>
+                </div>
+                <div class="div3"><h3>Responsive Design</h3>
+                    <br>
+                <p> Responsive design ensure your webpage looks great on all devices, from desktops to mobile phones</p></div>
+            </div>
+            <div class="box2">
+                <div class="div2">
+                    <h3>Box Model</h3>
+                    <br>
+                    <p>The css box model describe the rectangular boxes generated for elements.it includes margins, borders, padiing and the actual content.</p>
+                </div>
+            </div>
+            
+
+            
+        </main>
+        <footer>
+            <div class="fbox">
+                <span><Instagram>Create by Pranjul Gupta | Follow us on Instagram | Twitter | linkdin</p></span>
+            </div>
+        </footer>
+
+    </div>
+    
+</body>
+</html>
